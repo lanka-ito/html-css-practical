@@ -67,11 +67,13 @@ h1 {
 #about-img {
   text-align: right;
   border-radius: 50% 50% 50% 50%;
+  margin: 0 auto;
 }
 
 #about-text {
   text-align: left;
-  margin-left: 100px;
+  margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* works */
@@ -89,6 +91,9 @@ h1 {
 }
 #works-flex > div > img {
   width: 100%;
+}
+#works-flex > div > p {
+  text-align: left;
 }
 
 /* footer */
@@ -122,16 +127,18 @@ SP用コード
   align-items: center;
 }
 #about-img {
-    text-align: center;
+  text-align: center;
   border-radius: 50% 50% 50% 50%;
 }
 
 #about-text {
-  width: 95%;
+  width: 100%;
   text-align: left;
   margin: 0 auto 0 auto;
 }
-
+#about-text > h3 {
+  margin-top: 0;
+}
 /* works */
 #works {
   margin-bottom: 40px;
@@ -144,5 +151,7 @@ SP用コード
   text-align: center;
   margin: 0;
 }
-
+#works-flex > div > p {
+  text-align: center
+}
 }
